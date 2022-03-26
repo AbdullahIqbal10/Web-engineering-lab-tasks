@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us</title>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <h1>Photo Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Contact us.html">Contact us</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="thankyou.html">more</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h2>Contact us</h2>
+    <form class="form" action="" method="post">
+        <table>
+              <tr><P>
+              <td><label for="firstname">FIRST NAME:</label></td>
+              <td><input required id = "firstname" type="text" name="firstname" value="" placeholder="Enter first name" maxlength="30"> (max 30 character a-z and A-Z)</td>
+        
+        </P></td></tr>
+        
+            <tr><P>
+            <td><label for="lastname">LAST NAME:</label></td>
+            <td><input required id = "lastname" type="text" name="lastname" value="" placeholder="Enter last name" maxlength="30"> (max 30 character a-z and A-Z)</td>
+        
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="dateofbirth">DATE OF BIRTH:</label></td>
+        <td><input required id = "dateofbirth" type="date" name="date" value="date"></td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="emailid">EMAIL ID:</label></td>
+        <td><input required id = "emailid" type="email" name="email" value="" placeholder="Enter email address"></td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="mobileno">MOBILE NUMBER:</label></td>
+        <td><input required id = "mobileno" type="number" name="number" value="" placeholder="Enter mobile number" maxlength="11"> (11 digit number)</td>
+        
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="gender">GENDER: </label></td>
+        <td>MALE: <input id = "gender" type="radio" name="gender" value="male">
+        FEMALE:<input id = "gender" type="radio" name="gender" value="female">
+        OTHERS:<input  id = "gender" type="radio" name="gender" value="others">
+        </td>
+        
+        <tr>
+        <td><label for="address">ADDRESS:</label></td>
+        <td><textarea required name="address" rows="8" cols="40" placeholder="Enter address"></textarea> </td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="city">CITY:</label></td>
+        <td><input required id = "city" type="text" name="city" value="" placeholder="Enter city name" maxlength="30"> (max 30 character a-z and A-Z)</td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="pin">PIN CODE:</label></td>
+        <td><input required id = "pin" type="number" name="pincode" value="" placeholder="Enter pin code" maxlength="6"> (6 digit number)</td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="country">COUNTRY:</label></td>
+        <td><select required id="country" name="countries">
+          <option value="pakistan">United states</option>
+          <option selected value="pakistan">Pakistan</option>
+          <option value="pakistan">India</option>
+          <option value="pakistan">Saudia Arabia</option>
+          <option value="pakistan">Dubai</option>
+          <option value="pakistan">Afganistan</option>
+        </select> (max 30 character a-z and A-Z)</td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="province">PROVINCE:</label></td>
+        <td><input required id = "province" type="text" name="province" value="" placeholder="Enter province" maxlength="30"></td>
+        </P></tr>
+        
+        
+        
+        <tr><P>
+        <td><label for="province">UPLOAD YOUR PHOTO:</label></td>
+        <td><input required id = "province" type="file" name="province" value="" placeholder="Upload photo" maxlength="30"></td>
+        </P></tr>
+        
+        <tr><P>
+        <td><label for="courses">COURSES APPLIED FOR:</label></td>
+        <td>BCA<input required id = "courses" type="radio" name="courses" value="">
+        B.Com<input id = "courses" type="radio" name="courses" value="">
+        B.Sc<input id = "courses" type="radio" name="courses" value="">
+        B.A<input id = "courses" type="radio" name="courses" value="">
+        </td>
+        </P></tr>
+        
+        
+          </table>
+            </form>
+        
+        <div class = "center">
+          <p>
+            <a href=""><input type="submit" name="submit" value="SUBMIT"></a>
+            <a href = ""><input type="Reset" value = "RESET"></a>
+          </p>
+        </div>
+</body>
+</html>
